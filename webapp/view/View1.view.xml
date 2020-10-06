@@ -1,0 +1,43 @@
+<mvc:View controllerName="demo.zgrid.controller.View1"  xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<l:Grid  class="sapUiSmallMarginTop" hSpacing="1" defaultSpan="L6 M6 S10">
+							<l:content>
+								<VBox>
+								<f:SimpleForm id="SimpleFormChange354wide" editable="true" layout="ResponsiveGridLayout" title="Address" labelSpanXL="4" labelSpanL="3"
+									width="800px" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0"
+									columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false">
+									<f:content>
+										<Label text="Gate pass No"/>
+										<Text id="txtVisiId" text="01"/>
+										<Label text="Visitor Name"/>
+										<Text id="txtFullName" text="Name 1"/>
+										<Label text="Gate No."/>
+										<Text id="txtGateNo" text="1"/>
+										<Label text="Mobile Number"/>
+										<Text id="txtMbNo" text="111111111"/>
+										<Label text="Person To Meet"/>
+										<Text id="txtWhmToMeet"/>
+										<Label text="Date"/>
+										<Text id="txtVisitDate"/>
+										<Label text="Time"/>
+										<Text id="txtInTime"></Text>
+									</f:content>
+								</f:SimpleForm>
+
+									<layoutData>
+										<l:GridData span="L3 M3 S8" linebreakL="false" linebreakM="false" linebreakS="false"/>
+									</layoutData>
+								</VBox>
+								<Image src="image/dummyimage1.jpg" id="imgid" width="40%"></Image>
+							</l:content>
+						</l:Grid>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
